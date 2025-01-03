@@ -7,6 +7,9 @@ Number_2 = float(input("Enter second number!"))
 #We have our calculations as well as a message that reads out the solution to our calculations
 Sum = Number_1 + Number_2
 Difference = Number_2 - Number_1
+if Difference < 0:
+    Difference = Difference * -1 
+    print(Difference)
 Product = Number_1 * Number_2
 print(f"The Sum of those numbers are {Sum}. The difference of those numbers is {Difference}. The product of those numbers is {Product}.")
 
